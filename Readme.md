@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Sergey Yarunichev](https://up.htmlacademy.ru/htmlcss/20/user/628381).
-* Наставник: [Наталья Майстренко] (https://htmlacademy.ru/profile/natalie)
+* Наставник: [Наталья Майстренко](https://up.htmlacademy.ru/htmlcss/20/user/247943)
 
 ---
 
