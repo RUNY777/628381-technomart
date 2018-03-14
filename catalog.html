@@ -66,32 +66,32 @@
               <li><a class="button" href="#">down</a>
             </ul>
           </div>
-          <form class="filter">
+          <form class="filter" method="post">
             <fieldset>
               <legend>ЦЕНА:</legend>
-          <input type="range" min="0" max="30000">
+          <input type="range" name="filter-range" value="filter-range" min="0" max="30000">
         </fieldset>
         <fieldset>
           <legend>ПРОИЗВОДИТЕЛИ:</legend>
           <ul>
-            <li><input type="checkbox" name="BOSCH" id="filter-BOSCH" checked>
-              <label for="filter-BOSCH">BOSCH</label></li>
-            <li><input type="checkbox" name="INTERSCOL" id="filter-INTERSKOL" >
-              <label for="filter-INTERSKOL">ИНТЕРСКОЛ</label></li>
-            <li><input type="checkbox" name="MAKITA" id="filter-MAKITA" checked>
-              <label for="filter-MAKITA">MAKITA</label></li>
-            <li><input type="checkbox" name="DEWALT" id="filter-DEWALT" >
-              <label for="filter-DEWALT">DEWALT</label></li>
-            <li><input type="checkbox" name="HITACHI" id="filter-HITACHI" >
-               <label for="filter-HITACHI">HITACHI</label></li>
+            <li><input type="checkbox" name="filter-brand-BOSCH" value="filter-brand-BOSCH" id="filter-BOSCH" checked>
+              <label for="filter-brand-BOSCH">BOSCH</label></li>
+            <li><input type="checkbox" name="filter-brand-INTERSCOL" value="filter-brand-INTERSCOL" id="filter-INTERSKOL" >
+              <label for="filter-brand-INTERSKOL">ИНТЕРСКОЛ</label></li>
+            <li><input type="checkbox" name="filter-brand-MAKITA" value="filter-brand-MAKITA" id="filter-MAKITA" checked>
+              <label for="filter-brand-MAKITA">MAKITA</label></li>
+            <li><input type="checkbox" name="filter-brand-DEWALT" value="filter-brand-DEWALT" id="filter-DEWALT" >
+              <label for="filter-brand-DEWALT">DEWALT</label></li>
+            <li><input type="checkbox" name="filter-brand-HITACHI" value="filter-brand-HITACHI" id="filter-HITACHI" >
+               <label for="filter-brand-HITACHI">HITACHI</label></li>
           </ul>
         </fieldset>
         <fieldset>
             <legend>ПИТАНИЕ:</legend>
             <ul>
-              <li><input type="radio" name="power-suply" value="rechargeable" id="filter-rechargeable">
+              <li><input type="radio" name="filter-power-suply" value="filter-rechargeable" id="filter-rechargeable">
                <label for="filter-rechargeable">АККУМУЛЯТОРНЫЕ</label></li>
-              <li><input type="radio" name="power-suply" value="network" id="filter-network">
+              <li><input type="radio" name="filter-power-suply" value="filter-network" id="filter-network">
                <label for="filter-network">СЕТЕВЫЕ</label></li>
             </ul>
         </fieldset>
