@@ -55,7 +55,7 @@
             </ul><div class="">
           <h2>ПЕРФОРАТОРЫ</h2>
         </div>
-          <div class="">
+          <div class="sorting">
             <ul>
               <li>Фильтр
               <li>Сортировка
@@ -66,85 +66,95 @@
               <li><a class="button" href="#">down</a>
             </ul>
           </div>
-          <div class="filters">
-          <div>
-            <h3>ЦЕНА</h3>
-            <input type="range">
-          </div>
-          <div>
-            <h3>ПРОИЗВОДИТЕЛИ</h3>
-              <input type="checkbox"><a href="#">BOSCH</a>
-              <input type="checkbox"><a href="#">ИНТЕРСКОЛ</a>
-              <input type="checkbox"><a href="#">MAKITA</a>
-              <input type="checkbox"><a href="#">DEWALT</a>
-              <input type="checkbox"><a href="#">HITACHI</a>
-          </div>
-            <div>
-              <h3>ПИТАНИЕ</h3>
-              <input type="radio">Аккумуляторные
-              <input type="radio">Сетевые
-            </div>
+          <form class="filter">
+            <fieldset>
+              <legend>ЦЕНА:</legend>
+          <input type="range">
+        </fieldset>
+        <fieldset>
+          <legend>ПРОИЗВОДИТЕЛИ:</legend>
+          <ul>
+            <li><input type="checkbox" name="BOSCH" id="filter-BOSCH" checked>
+              <label for="filter-BOSCH">BOSCH</label></li>
+            <li><input type="checkbox" name="INTERSCOL" id="filter-INTERSKOL" checked>
+              <label for="filter-INTERSKOL">ИНТЕРСКОЛ</label></li>
+            <li><input type="checkbox" name="MAKITA" id="filter-MAKITA" checked>
+              <label for="filter-MAKITA">MAKITA</label></li>
+            <li><input type="checkbox" name="DEWALT" id="filter-DEWALT" checked>
+              <label for="filter-DEWALT">DEWALT</label></li>
+            <li><input type="checkbox" name="HITACHI" id="filter-HITACHI" checked>
+               <label for="filter-HITACHI">HITACHI</label></li>
+          </ul>
+          <fieldset>
+            <legend>ПИТАНИЕ:</legend>
+            <ul>
+              <li><input type="radio" name="power-suply" value="rechargeable" id="filter-rechargeable">
+               <label for="filter-rechargeable">АККУМУЛЯТОРНЫЕ</label></li>
+              <li><input type="radio" name="power-suply" value="network" id="filter-network">
+               <label for="filter-network">СЕТЕВЫЕ</label></li>
+            </ul>
+        </fieldset>
             <li>
-          <a class="button" href="#">показать</a></li>
-        </div>
+          <button type="submit">ПОКАЗАТЬ</button>
+        </form>
 
           <section class="assortment">
-          <article class="">
+          <article class="assortment-in">
             <a href="#"><img src="img/BFG3000.png" alt="BFG-3000"></a>
             <a href="#">Перфоратор BOSCH<br>
                         BFG-3000</a>
             <span>22500</span>
             <a class="button" href="15500.html">15500</a></li>
           </article>
-          <article class="">
+          <article class="assortment-in">
             <a href="#"><img src="img/BFG6000.png" alt="BFG-6000"></a>
             <a href="">Перфоратор BOSCH<br>
                     BFG-6000</a>
             <span>30500</span>
             <a class="button" href="25500.html">25500</a></li>
           </article>
-          <article class="">
+          <article class="assortment-in">
             <a class="button" href="#">купить</a></li>
             <a class="button" href="#">закладки</a></li>
             <a href="">Перфоратор BOSCH<br>
                    BFG-2000</a>
             <a class="button" href="12500.html">12500</a></li>
           </article>
-          <article class="">
+          <article class="assortment-in">
             <a href="#"><img src="img/BFG3000.png" alt="BFG3000"></a>
             <a>Перфоратор BOSCH<br>
                 BFG-3000</a>
             <span>22500</span>
             <a class="button" href="25500.html">15500</a></li>
           </article>
-          <article class="">
+          <article class="assortment-in">
            <a href="#"><img src="img/BFG6000.png" alt="BFG6000"></a>
            <a href="">Перфоратор BOSCH<br>
               BFG-6000</a>
             <span>30500</span>
             <a class="button" href="25500.html">25500</a></li>
           </article>
-          <article class="">
+          <article class="assortment-in">
             <a href="#"><img src="img/BFG2000.png" alt="BFG2000"></a>
             <a>Перфоратор BOSCH<br>
                BFG-2000</a>
              <a class="button" href="12500.html">12500</a></li>
           </article>
-          <article class="">
+          <article class="assortment-in">
             <a href="#"><img src="img/BFG3000.png" alt="BFG3000"></a>
             <a href="">Перфоратор BOSCH<br>
                       BFG-3000</a>
             <span>22500</span>
             <a class="button" href="25500.html">15500</a></li>
           </article>
-          <article class="">
+          <article class="assortment-in">
             <a href="#"><img src="img/BFG6000.png" alt="BFG6000"></a>
             <a href="">Перфоратор BOSCH<br>
                        BFG-6000</a>
             <span>30500</span>
             <a class="button" href="25500.html">25500</a></li>
           </article>
-          <article class="">
+          <article class="assortment-in">
             <a href="#"><img src="img/BFG2000.png" alt="BFG2000"></a>
             <a href="">Перфоратор BOSCH<br>
                      BFG-2000</a>
