@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  background-color:  #ffffff;
+  background-image: url("img/bg.jpg");
+ background-position: top center;
+background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
+.header-row-header-row_top{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #9198a3;
+}
+.header-row-header-row_main{
+  background-color: #f3f7f9;
+}
+.infoabout{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  color: #f3e5e8;
+
+  background-color: #f3f7f9;
+}
