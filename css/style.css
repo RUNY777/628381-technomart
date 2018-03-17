@@ -74,12 +74,12 @@ text-transform:uppercase;
  line-height: 30px;
  color: #ffffff;
 }
-.promo-features{
+.promo-features a{
   padding: 5px;
   color:#ffffff;
   background-color: rgba(0,0,0,0.2);
 }
-.promo-features-materials {
+.promo-features-materials{
     background-color: #fdc45a;
 }
 .promo-features-tolling{
@@ -103,13 +103,13 @@ text-transform:uppercase;
  color: #ffffff;
 }
 .promo2-features-sale{
-  background-color:#a2cfa1
+  background-color:#a2cfa1;
 }
 .promo2-features-del{
-  background-color:#f6be53
+  background-color:#f6be53;
 }
 .popular-products{
-background-color:#f9f8f6
+background-color:#f9f8f6;
 }
 
 .booklet{
@@ -120,17 +120,17 @@ background-color:#f9f8f6
   background-color:#ffffff
 }
 .popular-manufacturers{
-  background-color:#f9f8f6
+  background-color:#f9f8f6;
 }
 .popular-manufacturers-in {
-  background-color:#ffffff
+  background-color:#ffffff;
 }
 .popular-manufacturers-in {
 list-style: none;
 }
 
 .info{
-    background-color:##ffffff
+    background-color:##ffffff;
 }
 .main-fotter{
   font-family: "Cuprum", Arial, sans-serif;
