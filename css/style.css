@@ -78,8 +78,8 @@ text-transform:uppercase;
 }
 .promo-materials a{
   padding: 5px
-  color#ffffff
-  background-color: rgba(0,0,0,0,2)
+  color:#ffffff
+  background-color: rgba(0,0,0,0.2)
 }
 .promo-tolling{
   background-color: #4bbcde;
