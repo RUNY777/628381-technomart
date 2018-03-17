@@ -36,6 +36,21 @@ span{
   color: #a9a9a9;
   text-decoration: line-through;
 }
+.image a{
+  padding:5px;
+  color:#ffffff;
+  background-color:#ffffff;
+}
+.BFG a{
+  padding:5px;
+  color:#000000;
+  background-color:#ffffff;
+}
+.button-prise a{
+  padding:5px;
+  color:#000000;
+  background-color:#ee3643;
+}
 .header-row-header-row_top{
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
