@@ -22,6 +22,20 @@ line-height: 30px;
 color: #32425c;
 text-transform:uppercase;
 }
+article{
+  font-family: "PT-Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  background-color:  #ffffff
+}
+span{
+  font-family: "PT-Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #a9a9a9;
+  text-decoration: line-through;
+}
 .header-row-header-row_top{
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
@@ -129,13 +143,7 @@ background-color:#f9f8f6;
   color:#ffffff;
   background-color:#ee3643;
 }
-.booklet{
-  font-family: "Cuprum", Arial, sans-serif;
-  font-size: 18px;
-  line-height: 20px;
-  color: #000000;
-  background-color:#ffffff
-}
+
 .popular-manufacturers{
   background-color:#f9f8f6;
 }
