@@ -74,10 +74,16 @@ text-transform:uppercase;
  line-height: 30px;
  color: #ffffff;
 }
+.promo-features{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+ line-height: 18px;
+ color: #ffffff;
+}
 .promo-features a{
-  padding: 5px;
+  padding:5px;
   color:#ffffff;
-  background-color: rgba(0,0,0,0.2);
+  background-color:rgba(0,0,0,0.2);
 }
 .promo-features-materials{
     background-color: #fdc45a;
