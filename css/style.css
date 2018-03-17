@@ -36,17 +36,17 @@ span{
   color: #a9a9a9;
   text-decoration: line-through;
 }
-.image a{
+a.image{
   padding:5px;
   color:#ffffff;
   background-color:#ffffff;
 }
-.BFG a{
+a.BFG {
   padding:5px;
   color:#000000;
   background-color:#ffffff;
 }
-.button-prise a{
+a.button-prise {
   padding:5px;
   color:#000000;
   background-color:#ee3643;
@@ -175,7 +175,13 @@ list-style: none;
 }
 
 .info{
-    background-color:##ffffff;
+    background-color:#ffffff;
+}
+.devivery h3 {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: #32425c;
 }
 .main-fotter{
   font-family: "Cuprum", Arial, sans-serif;
