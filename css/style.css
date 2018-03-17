@@ -84,11 +84,21 @@ a.button{
 .promo-tolling{
   background-color: #4bbcde;
   }
+  a.button{
+    padding: 5px
+    color: #ffffff
+    background-color:rgba(0,0,0,0,2)
+    }
 .popular-products{
 background-color:#f9f8f6
 }
+a.button{
+  padding: 5px
+  color: #ffffff
+  background-color:rgba(0,0,0,0,2)
+  }
 .promo-technicue{
-  background-color:e1a5dd
+  background-color:#e1a5dd
 }
 .booklet{
   font-family: "Cuprum", Arial, sans-serif;
