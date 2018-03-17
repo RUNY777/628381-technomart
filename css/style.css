@@ -19,7 +19,7 @@ h2 {
 font-family: "Cuprum", Arial, sans-serif;
 font-size: 30px;
 line-height: 30px;
-color: #f1efec;
+color: #32425c;
 text-transform:uppercase;
 }
 .header-row-header-row_top{
@@ -128,7 +128,7 @@ background-color:#f9f8f6;
   padding:5px;
   color:#ffffff;
   background-color:#ee3643;
-
+}
 .booklet{
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
