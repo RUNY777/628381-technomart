@@ -87,7 +87,26 @@ text-transform:uppercase;
 .promo-technicue{
     background-color:#e1a5dd
   }
-
+.slider{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color:#878177;
+  background-image: url("img/slider1.jpg") ;
+}
+.slider h3{
+  font-size: 36px;
+ line-height: 36px;
+ color: #ffffff;
+}
+.promo2-sale{
+  background-color:#a2cfa1
+}
+.promo2-del{
+  background-color:#f6be53
+}
 .popular-products{
 background-color:#f9f8f6
 }
