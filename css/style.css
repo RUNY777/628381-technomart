@@ -68,24 +68,25 @@ text-transform:uppercase;
 .promo2{
   list-style: none;
 }
-.promo h3{
+.promo,
+.promo2 h3{
   font-size: 24px;
  line-height: 30px;
  color: #ffffff;
 }
-.promo-materials{
-  background-color: #fdc459;
+.promo-features{
+  padding: 5px;
+  color:#ffffff;
+  background-color: rgba(0,0,0,0.2);
 }
-.promo-materials a{
-  padding: 5px
-  color:#ffffff
-  background-color: rgba(0,0,0,0.2)
+.promo-features-materials {
+    background-color: #fdc45a;
 }
-.promo-tolling{
+.promo-features-tolling{
   background-color: #4bbcde;
   }
-.promo-technicue{
-    background-color:#e1a5dd
+.promo-features-technicue{
+    background-color:#e1a5dd;
   }
 .promo2-slider{
   font-family: "Cuprum", Arial, sans-serif;
@@ -94,17 +95,17 @@ text-transform:uppercase;
   font-weight: 400;
   color: #ffffff;
   background-color:#878177;
-  background-image: url("img/slider1.jpg") ;
+  background-image:url("img/slider1.jpg") ;
 }
 .promo2-slider h3{
   font-size: 36px;
  line-height: 36px;
  color: #ffffff;
 }
-.promo2-sale{
+.promo2-features-sale{
   background-color:#a2cfa1
 }
-.promo2-del{
+.promo2-features-del{
   background-color:#f6be53
 }
 .popular-products{
