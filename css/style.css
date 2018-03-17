@@ -41,12 +41,12 @@ a.image{
   color:#ffffff;
   background-color:#ffffff;
 }
-a.BFG {
+a.BFG{
   padding:5px;
   color:#000000;
   background-color:#ffffff;
 }
-a.button-prise {
+a.button-prise{
   padding:5px;
   color:#000000;
   background-color:#ee3643;
@@ -67,9 +67,9 @@ a.button-prise {
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
-  color: #f3e5e8;
+  color: #ee3643;
 
-  background-color: #f3f7f9;
+  background-color: #f3f7f8;
 }
 .header-row-header-row_nav{
   font-family: "Cuprum", Arial, sans-serif;
