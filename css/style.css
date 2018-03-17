@@ -68,7 +68,7 @@ text-transform:uppercase;
 .promo2{
   list-style: none;
 }
-.promo,
+.promo h3,
 .promo2 h3{
   font-size: 24px;
  line-height: 30px;
@@ -81,7 +81,7 @@ text-transform:uppercase;
  line-height: 18px;
  color: #ffffff;
 }
-.promo-features,
+.promo-features ф,
 .promo2-features a{
   padding:5px;
   color:#ffffff;
