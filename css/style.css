@@ -2,12 +2,11 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "Cuprum", Arial, sans-serif;
-  font-size: 14px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #000000;
-  text-transform: uppercase;
   background-color:  #ffffff;
   background-image: ;
  background-position: top center;
@@ -21,7 +20,7 @@ font-family: "Cuprum", Arial, sans-serif;
 font-size: 30px;
 line-height: 30px;
 color: #eae8e6;
-
+text-transform:uppercase;
 }
 .header-row-header-row_top{
   font-family: "Cuprum", Arial, sans-serif;
@@ -29,7 +28,7 @@ color: #eae8e6;
   line-height: 18px;
   color: #ffffff;
 
-  background-color: #9198a3;
+  background-color: #7b8390;
 }
 .header-row-header-row_main{
   background-color: #f3f7f9;
@@ -49,7 +48,7 @@ color: #eae8e6;
   line-height: 18px;
   color: #ffffff;
 
-  background-color: #9198a3;
+  background-color: #838e9d;
 }
 .header-row-header-row_top,
 .header-row-header-row_nav{
@@ -73,6 +72,14 @@ color: #eae8e6;
   font-size: 24px;
  line-height: 30px;
  color: #ffffff;
+}
+.promo-materials{
+  background-color: #fdc459;
+}
+.promo-materials a{
+  padding: 5px
+  color: #ffffff
+  background-color:rgba(0,0,0,0,2)
 }
 .popular-products{
 background-color:#f9f8f6
