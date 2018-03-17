@@ -87,7 +87,7 @@ text-transform:uppercase;
 .promo-technicue{
     background-color:#e1a5dd
   }
-.slider{
+.promo2-slider{
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -96,7 +96,7 @@ text-transform:uppercase;
   background-color:#878177;
   background-image: url("img/slider1.jpg") ;
 }
-.slider h3{
+.promo2-slider h3{
   font-size: 36px;
  line-height: 36px;
  color: #ffffff;
