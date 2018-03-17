@@ -19,7 +19,7 @@ h2 {
 font-family: "Cuprum", Arial, sans-serif;
 font-size: 30px;
 line-height: 30px;
-color: #eae8e6;
+color: #f1efec;
 text-transform:uppercase;
 }
 .header-row-header-row_top{
@@ -111,9 +111,6 @@ text-transform:uppercase;
 background-color:#f9f8f6
 }
 
-.promo-technicue{
-  background-color:#e1a5dd
-}
 .booklet{
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
@@ -130,13 +127,7 @@ background-color:#f9f8f6
 .popular-manufacturers-in {
 list-style: none;
 }
-.services{
-  font-family:
-  font-size:
-  line-height:
-  color:
-  background-color:
-}
+
 .info{
     background-color:##ffffff
 }
