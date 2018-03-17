@@ -76,7 +76,7 @@ text-transform:uppercase;
 .promo-materials{
   background-color: #fdc459;
 }
-.promo-materials a{
+.button a{
   padding: 5px
   color: #ffffff
   background-color:rgba(0,0,0,0,2)
