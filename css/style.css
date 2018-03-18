@@ -178,7 +178,15 @@ background-color: #293449;
 .promo2-features a{
   padding:5px;
   color:#ffffff;
-  background-color:rgba(0,0,0,0.2);
+  background-color:rgba(229,229,229,0.2);
+}
+.promo-features a,
+.promo2-features a:hover{
+  background-color:rgba(204,204,204,0.2);
+}
+.promo-features a,
+.promo2-features a:focus{
+  background-color:rgba(178,178,178,0.2);
 }
 .promo-features-materials{
     background-color: #fdc45a;
@@ -261,7 +269,7 @@ background-color:#f7f3ec
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
-  color: #000000;
+  color: #ffffff;
 
   background-color: #44526a;
 }
@@ -281,7 +289,7 @@ background-color:#f7f3ec
 .footer a{
   color: #ffffff;
 }
-.main-fotter a:hover,,
+.main-fotter a:hover,
 .main-fotter a:focus,
 .footer a:hover,
 .fotter a:focus,
