@@ -20,6 +20,12 @@ a.button-zakaz{
   color:#ffffff;
   background-color:#63a63e;
 }
+a.button-exit{
+  padding:5px;
+  color:#000000;
+  background-color:#ffffff;
+}
+
 h2 {
 font-family: "Cuprum", Arial, sans-serif;
 font-size: 30px;
