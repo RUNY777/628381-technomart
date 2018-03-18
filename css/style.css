@@ -20,6 +20,12 @@ a.button-zakaz{
   color:#ffffff;
   background-color:#63a63e;
 }
+a.button-zakaz:hover{
+  background-color:#5fbb2d;
+}
+a.button-zakaz:focus{
+  background-color:#518534;
+}
 a.button-exit{
   font-family:"Cuprum", Arial, sans-serif;
   font-size: 21px;
@@ -27,6 +33,12 @@ a.button-exit{
   padding:5px;
   color:#000000;
   background-color:#ffffff;
+}
+a.button-exit:hover{
+  color:#ee3643;
+}
+a.button-exit:focus{
+  color:#b2b2b2
 }
 a.tel{
   font-family:"Cuprum", Arial, sans-serif;
@@ -61,6 +73,7 @@ article{
   color: #000000;
   background-color:  #ffffff
 }
+
 span{
   font-family: "PT-Sans", Arial, sans-serif;
   font-size: 17px;
@@ -136,10 +149,13 @@ a.button-prise{
    color: #ffffff;
 }
 .header-row-header-row_top a:hover,
+.header-row-header-row_nav a:hover{
+background-color: #293449;
+}
 .header-row-header-row_top a:focus,
-.header-row-header-row_nav a:hover,
 .header-row-header-row_nav a:focus {
-  background-color: #242424;
+  color:#8e939c
+  background-color: #1d2739;
 }
 .promo,
 .promo2{
