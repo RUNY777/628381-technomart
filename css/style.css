@@ -192,6 +192,12 @@ list-style: none;
   line-height: 36px;
   color: #32425c;
 }
+.aboutperf{
+  background-color:#f2f6f8
+}
+.sorting{
+background-color:#f7f3ec
+}
 .main-fotter{
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
