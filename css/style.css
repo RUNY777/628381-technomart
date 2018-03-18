@@ -16,6 +16,9 @@ a {
   text-decoration: none;
 }
 a.button-zakaz{
+  font-family:"Cuprum", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 21px;
   padding:5px;
   color:#ffffff;
   background-color:#63a63e;
