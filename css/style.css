@@ -211,6 +211,7 @@ list-style: none;
 .main-fotter a:focus,
 .footer a:hover,
 .fotter a:focus,
+
 .login-form input[type="text"],
  {
   font: inherit;
