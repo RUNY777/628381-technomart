@@ -196,13 +196,17 @@ list-style: none;
   background-color:#f2f6f8
 }
 .sorting{
+font-family: "PT_Sans", Arial, sans-serif;
+font-size: 13px;
+line-height: 18px;
+color: #32425c;
 background-color:#f7f3ec
 }
 .main-fotter{
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
-  color: #ffffff;
+  color: #000000;
 
   background-color: #44526a;
 }
