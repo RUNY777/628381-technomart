@@ -41,7 +41,7 @@ span{
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
-  color: #000000;
+  color: #ffffff;
   text-transform:uppercase;
 }
 
@@ -233,4 +233,7 @@ list-style: none;
 
 .login-form input:focus {
   border-color: #663d15;
+}
+.aboutperf{
+  background-color:#f2f6f8
 }
