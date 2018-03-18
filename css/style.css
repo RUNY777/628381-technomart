@@ -154,7 +154,7 @@ background-color: #293449;
 }
 .header-row-header-row_top a:focus,
 .header-row-header-row_nav a:focus {
-  color:#8e939c
+  color:#8e939c;
   background-color: #1d2739;
 }
 .promo,
@@ -231,10 +231,10 @@ background-color:#f9f8f6;
   color:#ffffff;
   background-color:#ee3643;
 }
-.popular-manufacturers-in {
+.manufacturers-in {
   background-color:#ffffff;
 }
-.popular-manufacturers-in {
+.manufacturers-in {
 list-style: none;
 }
 
@@ -257,7 +257,7 @@ line-height: 18px;
 color: #32425c;
 background-color:#f7f3ec
 }
-.main-fotter{
+.main-footer{
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
