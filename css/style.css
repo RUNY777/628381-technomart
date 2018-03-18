@@ -37,14 +37,14 @@ span{
   text-decoration: line-through;
 }
 
-p.main-header-logo{
+.main-header-logo{
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #000000;
   text-transform:uppercase;
 }
-    
+
 a.image{
   padding:5px;
   color:#ffffff;
