@@ -16,17 +16,23 @@ a {
   text-decoration: none;
 }
 a.button-zakaz{
-  font-family:"Cuprum", Arial, sans-serif;
-  font-size: 21px;
-  line-height: 21px;
-  padding:5px;
+    padding:5px;
   color:#ffffff;
   background-color:#63a63e;
 }
 a.button-exit{
+font-family:"Cuprum", Arial, sans-serif;
+font-size: 21px;
+line-height: 21px;
   padding:5px;
   color:#000000;
   background-color:#ffffff;
+}
+a.tel{
+  border: 3px solid #ffffff;
+  padding:5px;
+  color:#ee3643;
+  background-color:#f3f7f9;
 }
 
 h2 {
