@@ -70,6 +70,13 @@ span {
  margin: 0 auto;
  padding: 10px;
 }
+.header-flex2{
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  margin: 0 auto;
+  padding: 10px;
+}
 
 .header-row_main {
   width: 100%;
