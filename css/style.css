@@ -55,7 +55,6 @@ span {
 }
 .header-row_top {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   margin: 0;
   padding: 0;
@@ -67,6 +66,9 @@ span {
     background-color: #293449;
 }
 .header-flex{
+display: flex;
+justify-content: space-around;
+max-height: 42px;
  width: 940px;
  margin: 0 auto;
  padding: 10px;
@@ -151,7 +153,8 @@ span {
 .main-header-logo {
     position: relative;
     width: 220px;
-    margin: 0 ;
+    height: 42px;
+    margin: 10px ;
     font-family: "Cuprum", Arial, sans-serif;
     font-size: 30px;
     line-height: 30px;
@@ -160,7 +163,10 @@ span {
     padding: 5px;
     background-color: #ee3643;
 }
-.top-menu-item_search{
+.top-menu-item_search input{
+  width: 240px;
+  height: 42px;
+  margin: 0 ;
 
 }
 .main-header-logo::before {
