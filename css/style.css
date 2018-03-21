@@ -74,8 +74,7 @@ span {
 
 .header-row_main {
   display: flex;
-    margin: 0;
-  padding: 0;
+  justify-content: space-around;
   margin-bottom: 60px;
   width: 100%;
   margin: 0;
@@ -84,8 +83,7 @@ span {
 }
 
 .header-flex2{
-  display: flex;
-    width: 940px;
+  width: 940px;
   margin: 0 auto;
   padding: 10px ;
 }
@@ -99,9 +97,7 @@ span {
 }
 
 .top-menu-item {
-  width: 220px;
-  margin: 10 ;
-    padding: 5px 10px;
+      padding: 5px 10px;
     color: #ffffff;
 }
 
@@ -110,9 +106,7 @@ span {
 }
 
 .button-order {
-  width: 150px;
-  margin: 0 ;
-    padding: 5px 10px;
+      padding: 5px 10px;
     color: #ffffff;
     background-color: #63a63e;
     min-width: 140px;
@@ -167,8 +161,7 @@ span {
     background-color: #ee3643;
 }
 .top-menu-item_search{
-  width: 230px;
-  margin: 10 ;
+
 }
 .main-header-logo::before {
     content: "";
