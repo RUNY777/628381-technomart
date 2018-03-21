@@ -71,7 +71,7 @@ justify-content: space-around;
 max-height: 42px;
  width: 940px;
  margin: 0 auto;
- padding: 10px;
+ padding: 0;
 }
 
 .header-row_main {
@@ -91,15 +91,10 @@ max-height: 42px;
   padding: 10px ;
 }
 .top-menu {
-  margin: 10px;
-    padding: 10px;
-    width: 710;
-    }
+      }
 
 .top-menu-item {
-  margin: 10px;
-    width: 141px;
-        padding: 5px 10px;
+          padding: 5px 10px;
     color: #ffffff;
 }
 
@@ -159,14 +154,13 @@ max-height: 42px;
     font-size: 30px;
     line-height: 30px;
     color: #ffffff;
+    text-align: center;
     text-transform: uppercase;
     padding: 5px;
     background-color: #ee3643;
 }
 .top-menu-item_search input{
-  width: 240px;
-  height: 42px;
-  margin: 0 ;
+  
 
 }
 .main-header-logo::before {
