@@ -70,26 +70,24 @@ span {
  margin: 0 auto;
  padding: 10px;
 }
-.header-flex2{
-  display: flex;
-  justify-content: space-between;
-  width: 940px;
-  margin: 0 auto;
-  padding: 10px;
-}
 
 .header-row_main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 60px;
   width: 100%;
   margin: 0;
   padding: 0;
     background-color: #f3f7f9;
 }
 
-.header-flex {
-    display: flex;
-    align-items: center;
+.header-flex2{
+  width: 940px;
+  margin: 0 auto;
+  padding: 10px ;
 }
-
 .top-menu {
     padding: 0 10px;
     width: 100%;
