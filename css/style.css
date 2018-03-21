@@ -55,6 +55,7 @@ span {
 }
 .header-row_top {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   margin: 0;
   padding: 0;
@@ -73,6 +74,7 @@ span {
 
 .header-row_main {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   margin: 0;
   padding: 0;
