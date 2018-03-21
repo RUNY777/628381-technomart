@@ -50,13 +50,14 @@ span {
 .main-header{
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-bottom: 60px;
   min-height: 285px;
 }
 .header-row_top {
   display: flex;
   justify-content: space-between;
-  min-height: 42px;
+  height: 42px;
   width: 100%;
     font-size: 17px;
     line-height: 18px;
@@ -65,8 +66,15 @@ span {
 }
 
 .header-row_main {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
+  height: 280px;
     background-color: #f3f7f9;
+}
+.header-flex2{
+  width: 940px;
+  height: 160px;
 }
 
 .header-flex {
@@ -144,7 +152,7 @@ span {
     line-height: 24px;
     color: #ffffff;
     text-transform: uppercase;
-    padding: 5px;
+    padding: 10px;
     background-color: #ee3643;
     text-align: center;
   }
