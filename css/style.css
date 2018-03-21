@@ -46,9 +46,18 @@ span {
     margin: 0 auto;
 }
 
-/* header */
 
+.main-header{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+  min-height: 285px;
+}
 .header-row_top {
+  display: flex;
+  justify-content: space-between;
+  min-height: 42px;
+  width: 100%;
     font-size: 17px;
     line-height: 18px;
     color: #ffffff;
@@ -56,6 +65,7 @@ span {
 }
 
 .header-row_main {
+  width: 100%
     background-color: #f3f7f9;
 }
 
@@ -126,15 +136,18 @@ span {
 }
 
 .main-header-logo {
+  height: 42px;
+  width: 220px;
     position: relative;
     font-family: "Cuprum", Arial, sans-serif;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 24px;
     color: #ffffff;
     text-transform: uppercase;
     padding: 5px;
     background-color: #ee3643;
-}
+    text-align: center;
+  }
 
 .main-header-logo::before {
     content: "";
@@ -202,6 +215,8 @@ span {
 }
 
 .header-row_nav {
+  width: 940px;
+  height: 60px;
     font-size: 17px;
     line-height: 18px;
     color: #ffffff;
