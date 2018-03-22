@@ -74,8 +74,13 @@ span {
   margin-bottom: 60px;
   min-height: 285px;
 }
+.header-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .header-row_top {
-    height: 42px;
+      height: 42px;
   width: 100%;
     font-size: 17px;
     line-height: 18px;
@@ -368,14 +373,20 @@ justify-content: space-between;
 }
 
 .promo-features-materials {
+  width: 260px;
+    height: 83px;
     background-color: #fdc45a;
 }
 
 .promo-features-tolling {
+  width: 260px;
+    height: 83px;
     background-color: #4bbcde;
 }
 
 .promo-features-technicue {
+  width: 260px;
+    height: 83px;
     background-color: #e1a5dd;
 }
 
@@ -404,10 +415,14 @@ justify-content: space-between;
 }
 
 .promo2-features-sale {
+  width: 260px;
+    height: 83px;
     background-color: #a2cfa1;
 }
 
 .promo2-features-del {
+  width: 260px;
+    height: 83px;
     background-color: #f6be53;
 }
 
