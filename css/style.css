@@ -48,6 +48,7 @@ line-height: 20px;
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     font-size: 18px;
     line-height: 20px;
+    text-transform: uppercase;
     color: #000000;
     background-color: #ffffff
 }
@@ -307,6 +308,7 @@ justify-content: space-between;
 .products-in{
   display: flex;
     justify-content: space-between;
+    background-color:#ffffff;
 }
 .popular-manufacturers-flex{
   display: flex;
@@ -318,6 +320,20 @@ justify-content: space-between;
   list-style: none;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 85px;
+}
+.services{
+  background-color: #f4f7f9;
+  margin-bottom: 81px;
+}
+.dgk{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.advantages{
+  display: flex;
+  flex-direction: column;
 }
 .user-navigation-flex{
   display: flex;
@@ -387,24 +403,26 @@ justify-content: space-between;
 }
 
 .promo-features-materials {
-  width: 260px;
-    height: 83px;
+  width: 300px;
+    height: 125px;
     background-color: #fdc45a;
 }
 
 .promo-features-tolling {
-  width: 260px;
-    height: 83px;
+  width: 300px;
+    height: 125px;
     background-color: #4bbcde;
 }
 
 .promo-features-technicue {
-  width: 260px;
-    height: 83px;
+  width: 300px;
+    height: 125px;
     background-color: #e1a5dd;
 }
 
 .promo2-slider {
+  width: 621px;
+    height: 267px;
     font-family: "Cuprum", Arial, sans-serif;
     font-size: 18px;
     line-height: 24px;
@@ -424,14 +442,14 @@ justify-content: space-between;
 
 
 .promo2-features-sale {
-  width: 260px;
-    height: 83px;
+  width: 300px;
+    height: 125px;
     background-color: #a2cfa1;
 }
 
 .promo2-features-del {
-  width: 260px;
-    height: 83px;
+  width: 300px;
+    height: 125px;
     background-color: #f6be53;
 }
 
@@ -456,6 +474,7 @@ justify-content: space-between;
 .info {
   display: flex;
     background-color: #ffffff;
+    margin-bottom: 85px;
 }
 
 .devivery h3 {
