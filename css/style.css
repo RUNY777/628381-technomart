@@ -276,12 +276,14 @@ align-items: center;
 justify-content: space-between;
 }
 .promo2{
+  list-style: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
   }
 }
 .features2{
+  list-style: none;
   display: flex;
     flex-direction: column;}
 
@@ -455,9 +457,14 @@ justify-content: space-between;
 }
 
 .info {
+  display: flex;
     background-color: #ffffff;
 }
-
+.info a{
+  padding: 5px;
+  color: #ffffff;
+  background-color: #ee3643;
+}
 .devivery h3 {
     font-family: "Cuprum", Arial, sans-serif;
     font-size: 36px;
