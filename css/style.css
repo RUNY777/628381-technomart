@@ -85,9 +85,9 @@ span {
 }
 .header-flex{
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
+
 .header-row_top {
   height: 42px;
   width: 100%;
@@ -96,10 +96,7 @@ span {
     color: #ffffff;
     background-color: #293449;
 }
-.header-flex {
-    display: flex;
-    align-items: center;
-  }
+
 
 .header-row_main {
     width: 100%;
