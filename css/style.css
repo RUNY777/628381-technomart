@@ -236,9 +236,17 @@ span {
 }
 
 .button-price {
-    padding: 5px;
-    color: #000000;
-    background-color: #ee3643;
+    left: 45px;
+    bottom: 20px;
+    width: 80px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    color: white;
+    background: #EE3643;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 1.126;
 }
 
 
