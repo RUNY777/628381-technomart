@@ -27,11 +27,11 @@ h2 {
 .button1{
 font-family: 'Cuprum';
 font-size: 14px;
-padding: 10px 0;
+padding: 10px 40px;
 color: #ffffff;
 background-color: #ee3643;
 border-radius: 3px;
-
+text-transform: uppercase;
       }
 
 .booklet {
@@ -44,10 +44,10 @@ border-radius: 3px;
   margin: 0 16px 16px 0;
   padding-bottom: 70px;
   border: 1px solid #ccc;
-line-height: 20px;
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     font-size: 18px;
     line-height: 20px;
+    font-weight: bold;
     text-transform: uppercase;
     color: #000000;
     background-color: #ffffff
@@ -90,7 +90,7 @@ span {
   justify-content: space-between;
 }
 .header-row_top {
-      height: 42px;
+  height: 42px;
   width: 100%;
     font-size: 17px;
     line-height: 18px;
@@ -271,8 +271,10 @@ justify-content: space-around;
     font-size: 17px;
     line-height: 18px;
     color: #ffffff;
-
-    background-color: #838e9d;
+background-color: #838e9d;
+}
+.header-row_nav a{
+  color: #ffffff;
 }
 .header-flex3{
   display: flex;
