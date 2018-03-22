@@ -25,9 +25,14 @@ h2 {
     text-transform: uppercase;
 }
 .button1{
-  padding: 5px;
+font-family: 'Cuprum';
+font-size: 14px;
+padding: 10px 0;
 color: #ffffff;
-background-color: #ee3643;}
+background-color: #ee3643;
+border-radius: 3px;
+
+      }
 
 .booklet {
     display: flex;
@@ -282,6 +287,7 @@ justify-content: space-between;
 .promo2{
 
   display: flex;
+  list-style: none;
   align-items: center;
   justify-content: space-between;
   list-style: none;
@@ -478,6 +484,10 @@ justify-content: space-between;
     color: #ffffff;
 
     background-color: #44526a;
+}
+.logotel{
+  display: flex;
+  flex-direction: column;
 }
 .site-navigation{
   display: flex;
