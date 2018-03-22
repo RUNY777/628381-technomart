@@ -25,7 +25,7 @@ h2 {
     text-transform: uppercase;
 }
 
-article {
+.booklet {
   display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,17 +57,14 @@ span {
 .brand{
   width: 220px;
     height: 145px;
-    display: inline-block;
-    margin: 0 16px 16px 0;
+      margin: 0 16px 16px 0;
     border: 1px solid #ccc;
 
 }
-.promo-features-in{
+.featuresin{
     width: 260px;
     height: 83px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 0 20px 20px;
+      margin: 0 0 20px 20px;
     padding: 20px;
   }
 .container {
@@ -330,7 +327,7 @@ justify-content: space-between;
     /*color: #8e939c;*/
     /*background-color: #1d2739;*/
 /*}*/
-
+/*
 .promo,
 .promo2 {
     list-style: none;
@@ -390,6 +387,8 @@ justify-content: space-between;
     /*background-image: url("img/slider1.jpg");*/
 }
 
+
+/*
 .promo2-slider h3 {
     font-size: 36px;
     line-height: 36px;
