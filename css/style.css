@@ -110,6 +110,11 @@ span {
   width: 940px;
   height: 160px;
 }
+.header-row_mainflex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .top-menu {
     padding: 0 10px;
@@ -310,18 +315,21 @@ justify-content: space-between;
   display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 24px;
     margin-bottom: 21px;
 }
 .products-in{
   display: flex;
     justify-content: space-between;
     background-color:#ffffff;
+    padding: 24px;
     margin-bottom: 21px;
 }
 .popular-manufacturers-flex{
   display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 24px;
     margin-bottom: 21px;
 }
 .manufacturers-in-flex{
@@ -329,6 +337,7 @@ justify-content: space-between;
   list-style: none;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 24px;
     margin-bottom: 85px;
 }
 .services{
