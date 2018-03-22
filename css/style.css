@@ -26,6 +26,20 @@ h2 {
 }
 
 article {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+min-height: 250px;
+  position: relative;
+display: inline-block;
+margin: 0 16px 16px 0;
+padding-bottom: 70px;
+border: 1px solid #ccc;
+line-height: 20px;
+font-weight: bold;
+vertical-align: top;
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     font-size: 18px;
     line-height: 20px;
@@ -40,7 +54,22 @@ span {
     color: #a9a9a9;
     text-decoration: line-through;
 }
+.brand{
+  width: 220px;
+    height: 145px;
+    display: inline-block;
+    margin: 0 16px 16px 0;
+    border: 1px solid #ccc;
 
+}
+.promo-features-in{
+    width: 260px;
+    height: 83px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 20px 20px;
+    padding: 20px;
+  }
 .container {
     max-width: 940px;
     margin: 0 auto;
@@ -260,13 +289,14 @@ justify-content: space-between;
   display: flex;
     justify-content: space-between;
 }
-.popular-manufacturers{
+.popular-manufacturers-flex{
   display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .manufacturers-in-flex{
   display: flex;
+  list-style: none;
     flex-wrap: wrap;
     justify-content: space-between;
 }
