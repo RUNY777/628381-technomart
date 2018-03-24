@@ -350,19 +350,37 @@ list-style: none;
   align-items: center;
   justify-content: space-between;
 }
+.services-slider{
+    width: 240px;
+    margin-top: 68px;
+    margin-bottom: 102px;
+    margin-right: 80px;
+}
 .advantages{
   display: flex;
   flex-direction: column;
+}
+.advantages-item1{
+    border-color: #ffffff;
+    color: #32425c;
+    background-color: #ffffff;
+}
+.advantages-item2{
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: ##32425c;
 }
 .user-navigation-flex{
   display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 940px;
 }
 .footerdown{
   display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 940px;
 }
 /*.header-row-header-row_top,*/
 /*.header-row-header-row_nav {*/
