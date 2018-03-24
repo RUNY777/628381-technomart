@@ -433,12 +433,12 @@ list-style: none;
 }
 
 .promo-features a,
-.promo2-features a:hover {
+.features2 a:hover {
     background-color: rgba(204, 204, 204, 0.2);
 }
 
 .promo-features a,
-.promo2-features a:focus {
+.features2 a:focus {
     background-color: rgba(178, 178, 178, 0.2);
 }
 
@@ -581,9 +581,9 @@ list-style: none;
 }
 .site-navigation{
   display: flex;
-  list-style: none;
   flex-wrap: wrap;
   justify-content: space-between;
+    list-style: none;
   }
 
 .footerdown {
@@ -604,34 +604,17 @@ list-style: none;
   .social-button{
     display: flex;
     list-style: none;
+    justify-content: space-between;
+    max-width: 170px;
   }
 
-.main-fotter,
-.footer {
-    list-style: none;
-}
-
-.main-fotter a,
-.footer a {
+.site-navigation a,
+.feedback a {
     color: #ffffff;
 }
 
-.main-fotter a:hover,
-.main-fotter a:focus,
-.footer a:hover,
-.fotter a:focus,
-.login-form input[type="text"] {
-    font: inherit;
-    color: #000000;
-    text-transform: uppercase;
 
-    background-color: #f9f6f3;
-    border: 2px solid #000000;
-}
 
-.login-form input:focus {
-    border-color: #663d15;
-}
 
 .aboutperf {
     background-color: #f2f6f8
