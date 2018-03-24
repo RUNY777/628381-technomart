@@ -565,8 +565,7 @@ list-style: none;
     background-color: #44526a;
   }
   .user-navigation-flex{
-    user-navigation-flex {
-        display: flex;
+          display: flex;
         align-items: center;
         justify-content: space-between;
         width: 940px;
