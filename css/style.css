@@ -361,14 +361,25 @@ list-style: none;
   flex-direction: column;
 }
 .advantages-item1{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  padding: 10px;
     border-color: #ffffff;
     color: #32425c;
     background-color: #ffffff;
 }
 .advantages-item2{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  padding: 10px;
     border-color: #ffffff;
     color: #ffffff;
-    background-color: ##32425c;
+    background-color: #32425c;
+}
+.advantages-item2 a{
+  color: #32425c
 }
 .user-navigation-flex{
   display: flex;
@@ -443,18 +454,22 @@ list-style: none;
   width: 300px;
     height: 125px;
     background-color: #fdc45a;
+    margin-right: 20px;
 }
 
 .promo-features-tolling {
   width: 300px;
     height: 125px;
     background-color: #4bbcde;
+    margin-right: 20px;
+    padding: 21px;
 }
 
 .promo-features-technicue {
   width: 300px;
     height: 125px;
     background-color: #e1a5dd;
+    padding: 21px;
 }
 
 .promo2-slider {
@@ -467,6 +482,7 @@ list-style: none;
     color: #ffffff;
     background-color: #878177;
     background-image: url("img/slider1.jpg");
+    padding: 21px;
 }
 
 
@@ -482,12 +498,14 @@ list-style: none;
   width: 300px;
     height: 125px;
     background-color: #a2cfa1;
+    padding: 21px;
 }
 
 .promo2-features-del {
   width: 300px;
     height: 125px;
     background-color: #f6be53;
+    padding: 21px;
 }
 
 .popular-products {
