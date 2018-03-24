@@ -455,6 +455,7 @@ list-style: none;
     height: 125px;
     background-color: #fdc45a;
     margin-right: 20px;
+   padding: 21px;
 }
 
 .promo-features-tolling {
@@ -531,6 +532,16 @@ list-style: none;
     background-color: #ffffff;
     margin-bottom: 85px;
 }
+.transcompany{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #000000;
+}
 
 .devivery h3 {
     font-family: "Cuprum", Arial, sans-serif;
@@ -561,6 +572,7 @@ list-style: none;
     color: #ffffff;
 
     background-color: #44526a;
+    margin-bottom: 52px;
 }
 .logotel{
   display: flex;
@@ -571,8 +583,7 @@ list-style: none;
   list-style: none;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 52px;
-}
+  }
 
 .footerdown {
     font-family: "Cuprum", Arial, sans-serif;
