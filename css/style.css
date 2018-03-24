@@ -640,13 +640,31 @@ padding: 0;
   font-size: 13px;
   line-height: 18px;
   color: #ffffff;
+  width: 940px;
   background-color: #f7f3ec;
   padding-left: 15px;
   padding-top: 10px;
   padding-left: 10px;
+  margin-bottom: 55px;
 }
 .sorting-filter{
   display: flex;
   list-style: none;
   justify-content: space-between;
 }
+.allperf{
+  display: flex;
+}
+.filter{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  width: 220px;
+  }
+  .products-in{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+  }
