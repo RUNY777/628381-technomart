@@ -625,6 +625,7 @@ padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 .breadcrumbs{
   display: flex;
@@ -679,7 +680,7 @@ padding: 0;
   .perforatorsprice{
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
     flex-wrap:wrap;
   }
   .pages{
@@ -695,10 +696,7 @@ padding: 0;
     padding-bottom: 73px;
   }
   .button2 a{
-    font-family: "PT Sans Narrow", Arial, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
+      color: #000000;
     padding: 13px;
     background-color: #ffffff;
     border-color: #e5e5e5;
