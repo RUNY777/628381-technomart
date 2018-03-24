@@ -296,6 +296,7 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 list-style: none;
+padding: 0;
 }
 .promo2{
 
@@ -304,12 +305,15 @@ list-style: none;
   align-items: center;
   justify-content: space-between;
   list-style: none;
+  padding: 0;
   }
 
 .features2{
     display: flex;
     flex-direction: column;
     list-style: none;
+    padding: 0;
+
 }
 
 .popular-products-flex{
@@ -612,10 +616,37 @@ list-style: none;
 .feedback a {
     color: #ffffff;
 }
-
-
-
-
 .aboutperf {
-    background-color: #f2f6f8
+    background-color: #f2f6f8;
+}
+
+/* CATALOG*/
+.breadcrumbs{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.catalog-perf{
+  width: 940px;
+  text-align: left;
+  background-color: #f2f6f8;
+  padding-top: 28px;
+  padding-left: 25px;
+  padding-bottom: 35px;
+  margin-bottom: 21px;
+}
+.sortingmain{
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #f7f3ec;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.sorting-filter{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
 }
