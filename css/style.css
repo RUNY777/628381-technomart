@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 h2 {
     font-family: "Cuprum", Arial, sans-serif;
     font-size: 30px;
@@ -83,12 +87,12 @@ span {
   margin-bottom: 60px;
   min-height: 285px;
 }
-.header-flex{
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .header-row_top {
+display: flex;
+justify-content: center;
+align-items: center;
   height: 42px;
   width: 100%;
     font-size: 17px;
