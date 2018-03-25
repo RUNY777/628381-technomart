@@ -101,6 +101,7 @@ span {
     padding: 0;
 }
 .header-flex{
+  display: flex;
   }
 .header-row_top a{
   display: block;
