@@ -318,9 +318,16 @@ background-color: #838e9d;
 }
 .header-row_nav a{
   display: block;
-  padding: 15px 20px;
+  padding: 20px 23px;
   vertical-align: middle;
   color: #ffffff;
+}
+.header-row_nav a:hover{
+  background-color: #293449;
+}
+.header-row_nav a:focus{
+  background-color: #1d2739;
+color: #a8abaf;
 }
 .header-flex3{
   display: flex;
