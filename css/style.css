@@ -192,11 +192,15 @@ align-items: center;
 }
 
 .tel {
-    font-family: "Cuprum", Arial, sans-serif;
+  position: relative;
+    width: 193px;
+    min-height: 27px;
+    padding-top: 12px;
+    padding-left: 71px;
+    border: 3px solid #fff;
     font-size: 21px;
-    line-height: 21px;
-    border: 3px solid #ffffff;
-    padding: 5px;
+    line-height: 17px;
+    color: #ee3643;
     color: #ee3643;
     background-color: #f3f7f9;
   }
