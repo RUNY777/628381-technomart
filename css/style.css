@@ -100,7 +100,12 @@ align-items: center;
     color: #ffffff;
     background-color: #293449;
 }
+.header-row_top a{
+  display: block;
+  padding: 25px 20px;
 
+  vertical-align: middle;
+}
 
 .header-row_main {
     width: 100%;
@@ -130,8 +135,23 @@ align-items: center;
 }
 
 .top-menu-item {
-    padding: 5px 10px;
+  position: relative;
+  padding-left: 50px;
     color: #ffffff;
+}
+.top-menu-item::before{
+  content: "";
+
+ position: absolute;
+ top:10px;
+ left:15px;
+ width: 18px;
+ height: 20px;
+ background-image: url("icon-bookmark.svg");
+ background-repeat: no-repeat;
+ background-position: 0 0;
+ background-color: #ff0000;
+ opacity: 0.3;
 }
 
 .top-menu-item:hover:not(.top-menu-item_search) {
