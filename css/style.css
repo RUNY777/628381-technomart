@@ -201,6 +201,16 @@ align-items: center;
     background-color: #f3f7f9;
   }
 
+.tel::before{
+   content: "";
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width: 19px;
+    height: 19px;
+    background: url("img/icon-phone.png") no-repeat -217px -193px;
+}
+
 .telef{
     display: flex;
     flex-direction: column;
