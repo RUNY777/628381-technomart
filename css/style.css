@@ -482,32 +482,36 @@ padding: 0;
       }
 
 .promo-features-tolling {
-  width: 300px;
-    height: 125px;
+  width: 185px;
+    height: 123px;
     background-color: #4bbcde;
     margin-right: 20px;
-    padding: 21px;
+    padding-right: 115px;
+    overflow: hidden;
 }
 
 .promo-features-technicue {
-  width: 300px;
-    height: 125px;
-    background-color: #e1a5dd;
-    padding: 21px;
+  background-color: #e1a5dd;
+        width: 185px;
+    height: 123px;
+      margin-right: 20px;
+    padding-right: 115px;
+    overflow: hidden;
+}
 }
 
 .promo2-slider {
-  width: 621px;
-    height: 267px;
-    font-family: "Cuprum", Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
     color: #ffffff;
     background-color: #878177;
     background-image: url("img/slider1.jpg");
-    padding: 21px;
-    margin-right: 20px;
+      margin-right: 20px;
+    width: 670px;
+    height: 266px;
+    overflow: hidden;
 }
 
 
@@ -520,18 +524,20 @@ padding: 0;
 
 
 .promo2-features-sale {
-  width: 300px;
-    height: 125px;
-    background-color: #a2cfa1;
-    padding: 21px;
-    margin-bottom: 20px;
+  background-color: #a2cfa1;
+        margin-bottom: 20px;
+    width: 185px;
+    height: 123px;
+        padding-right: 115px;
+    overflow: hidden;
 }
 
 .promo2-features-del {
-  width: 300px;
-    height: 125px;
-    background-color: #f6be53;
-    padding: 21px;
+  width: 185px;
+    height: 123px;
+    background-color: #fdc45a;
+        padding-right: 115px;
+    overflow: hidden;
 }
 
 .popular-products {
