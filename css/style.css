@@ -90,15 +90,17 @@ span {
 
 
 .header-row_top {
-display: flex;
-justify-content: center;
-align-items: center;
   height: 42px;
   width: 100%;
     font-size: 17px;
     line-height: 18px;
     color: #ffffff;
     background-color: #293449;
+    margin: 0;
+    padding: 0;
+}
+.header-flex{
+  display: flex;
 }
 .header-row_top a{
   display: block;
@@ -474,8 +476,7 @@ padding: 0;
 .promo-features-materials {
   width: 185px;
     height: 123px;
-    background-color: #fdc45a
-    url("img/icon-1.svg") no-repeat 213px 31px;
+    background-color: #fdc45a;
     margin-right: 20px;
     padding-right: 115px;
       overflow: hidden;
