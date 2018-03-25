@@ -317,6 +317,9 @@ justify-content: space-around;
 background-color: #838e9d;
 }
 .header-row_nav a{
+  display: block;
+  padding: 15px 20px;
+  vertical-align: middle;
   color: #ffffff;
 }
 .header-flex3{
