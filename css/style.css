@@ -628,8 +628,11 @@ legend{
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
   line-height: 30px;
-  color: #ffffff;
   font-weight: bold;
+}
+.show{
+padding: 14px;
+border: 3px solid #ffffff;
 }
 .ravshan{
   display: flex;
