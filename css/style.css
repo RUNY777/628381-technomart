@@ -65,7 +65,7 @@ span {
     justify-content: space-around;
     width: 220px;
     height: 145px;
-      margin: 0 16px 16px 0;
+    margin: 7px;
     border: 1px solid #ccc;
 
 }
@@ -630,7 +630,7 @@ padding: 0;
 .breadcrumbs{
   display: flex;
   list-style: none;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding-top: 22px;
   padding-bottom: 22px;
@@ -670,7 +670,7 @@ padding: 0;
   width: 220px;
   height: 717px;
   }
-  .products-in{
+  .productsin{
     display: flex;
     flex-direction: column;
     align-items: center;
