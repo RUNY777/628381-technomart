@@ -150,7 +150,7 @@ span {
     color: #ffffff;
 }
 .top-menu-item::before{
-  content: ""; 
+  content: "";
 position: absolute;
 top: 10px;
 left: 15px;
@@ -257,7 +257,7 @@ background: #293449;
     left: 12px;
     width: 19px;
     height: 19px;
-    background: url(../img/icone-phone.svg) no-repeat -217px -193px;
+    background: url(../img/icon-phone.svg) no-repeat ;
   }
 
 .telef{
@@ -542,6 +542,7 @@ padding: 0;
 }
 
 .promo-features-materials {
+  position: relative;
   width: 185px;
     height: 123px;
     background-color: #fdc45a;
@@ -550,6 +551,15 @@ padding: 0;
     padding-left: 15px;
     overflow: hidden;
       }
+  .promo-features-materials::before{
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 210px;
+    width: 49px;
+    height: 66px;
+    background: url(../img/icon-1.svg) no-repeat;
+  }
 
 .promo-features-tolling {
   width: 185px;
