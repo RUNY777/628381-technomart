@@ -185,14 +185,26 @@ span {
 }
 
 .button-exit {
-    font-family: "Cuprum", Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
     font-size: 21px;
     line-height: 21px;
-    padding: 5px;
-    color: #000000;
+      color: #000000;
     background-color: #ffffff;
+    position: relative;
+    width: 74px;
+        min-height: 32px;
+    padding-top: 13px;
+    padding-left: 47px;
 }
-
+.button-exit::before{
+content: "";
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    width: 20px;
+    height: 17px;
+    background: url(../img/sprite.png) no-repeat -65px -193px;
+  }
 .button-exit:hover {
     color: #ee3643;
 }
@@ -200,15 +212,53 @@ span {
 .button-exit:focus {
     color: #b2b2b2
 }
+.button-register{
+  width: 126px;
+    padding-left: 24px;
+    font-family: "Cuprum", Arial, sans-serif;
+      font-size: 21px;
+      line-height: 21px;
+        color: #000000;
+      background-color: #ffffff;
+      min-height: 32px;
+      padding-top: 13px;
+    }
+.top-menu-item_search{
+width: 100%;
+min-height: 42px;
+padding-left: 49px;
+border: 0;
+font-size: 17px;
+line-height: 18px;
+font-family: "Cuprum","Arial","sans-serif";
+color: #fff;
+background: #293449;
+}
+.button-order{
+  width: 150px;
+    text-align: center;
+}
 
 .tel {
+    position: relative;
+    width: 193px;
+    min-height: 27px;
+    padding-top: 12px;
+    padding-left: 71px;
+    border: 3px solid #fff;
     font-family: "Cuprum", Arial, sans-serif;
     font-size: 21px;
     line-height: 21px;
-    border: 3px solid #ffffff;
-    padding: 5px;
-    color: #ee3643;
-    background-color: #f3f7f9;
+    color: #e9292a;
+  }
+  .tel::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width: 19px;
+    height: 19px;
+    background: url(../img/icone-phone.svg) no-repeat -217px -193px;
   }
 
 .telef{
