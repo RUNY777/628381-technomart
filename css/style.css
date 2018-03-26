@@ -202,7 +202,7 @@ content: "";
     left: 15px;
     width: 20px;
     height: 17px;
-    background: url(../img/icon-login.png) no-repeat;
+    background: url(../img/icon-login.svg) no-repeat;
   }
 .button-exit:hover {
     color: #ee3643;
