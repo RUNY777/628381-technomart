@@ -548,37 +548,57 @@ padding: 0;
     background-color: #fdc45a;
     margin-right: 20px;
     padding-right: 100px;
-    padding-left: 15px;
+    padding-left: 20px;
     overflow: hidden;
       }
   .promo-features-materials::before{
     content: "";
     position: absolute;
     top: 30px;
-    left: 210px;
+    left: 220px;
     width: 49px;
     height: 66px;
     background: url(../img/icon-1.svg) no-repeat;
   }
 
 .promo-features-tolling {
+  position: relative;
   width: 185px;
     height: 123px;
     background-color: #4bbcde;
     margin-right: 20px;
     padding-right: 100px;
-    padding-left: 15px;
+    padding-left: 20px;
     overflow: hidden;
+}
+.promo-features-tolling::before{
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 220px;
+  width: 49px;
+  height: 66px;
+  background: url(../img/icon-2.svg) no-repeat;
 }
 
 .promo-features-technicue {
+  position: relative;
   background-color: #e1a5dd;
         width: 185px;
     height: 123px;
       margin-right: 20px;
       padding-right: 100px;
-      padding-left: 15px;
+      padding-left: 20px;
     overflow: hidden;
+}
+.promo-features-technicue::before{
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 220px;
+  width: 49px;
+  height: 66px;
+  background: url(../img/icon-3.svg) no-repeat;
 }
 
 
@@ -607,24 +627,43 @@ padding: 0;
 
 
 .promo2-features-sale {
+  position: relative;
   background-color: #a2cfa1;
         margin-bottom: 20px;
     width: 185px;
     height: 123px;
     padding-right: 100px;
-    padding-left: 15px;
+    padding-left: 20px;
     overflow: hidden;
+}
+.promo2-features-sale::before{
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 220px;
+  width: 49px;
+  height: 66px;
+  background: url(../img/icon-4.svg) no-repeat;
 }
 
 .promo2-features-del {
+  position: relative;
   width: 185px;
     height: 123px;
     background-color: #fdc45a;
     padding-right: 100px;
-    padding-left: 15px;
+    padding-left: 20px;
     overflow: hidden;
 }
-
+.promo2-features-del::before{
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 220px;
+  width: 49px;
+  height: 66px;
+  background: url(../img/icon-5.svg) no-repeat;
+}
 .popular-products {
     background-color: #f9f8f6;
 }
