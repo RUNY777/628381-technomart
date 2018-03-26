@@ -150,18 +150,17 @@ span {
     color: #ffffff;
 }
 .top-menu-item::before{
-  content: "";
-
- position: absolute;
- top:10px;
- left:15px;
- width: 18px;
- height: 20px;
- background-image: url("icon-bookmark.svg");
- background-repeat: no-repeat;
- background-position: 0 0;
- background-color: #ff0000;
- opacity: 0.3;
+  content: ""; 
+position: absolute;
+top: 10px;
+left: 15px;
+width: 18px;
+height: 20px;
+background-image: url(../img/icon-bookmark.svg);
+background-repeat: no-repeat;
+background-position: 0 0;
+/* background-color: #ff0000; */
+/* opacity: 0.3; */
 }
 
 .top-menu-item:hover:not(.top-menu-item_search) {
