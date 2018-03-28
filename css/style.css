@@ -885,8 +885,9 @@ border: 3px solid #ffffff;
 }
 
 .slider-slides {
+  display: flex;
     width: 200%;
-    float: left;
+
 }
 
 .slider-item1 {
