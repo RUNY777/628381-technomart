@@ -238,6 +238,7 @@ content: "";
       padding-top: 13px;
     }
 .top-menu-item_search{
+  position: relative;
 width: 100%;
 min-height: 42px;
 padding-left: 49px;
@@ -247,8 +248,18 @@ line-height: 18px;
 font-family: "Cuprum","Arial","sans-serif";
 color: #fff;
 background: #293449;
+opacity: .3;
 }
-
+.top-menu-item_search::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 17px;
+    width: 17px;
+    height: 17px;
+    background: url(../img/sprite.png) no-repeat ;
+    opacity: .3;
+}
 .top-menu-item_search::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 color: #fff;
 }
