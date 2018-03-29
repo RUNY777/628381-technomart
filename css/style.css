@@ -501,6 +501,9 @@ padding: 0;
 .advantages-item2 a{
   color: #32425c
 }
+.promo2{
+  margin-top: 20px;
+}
 
 .promo,
 .promo2 {
@@ -593,7 +596,7 @@ padding: 0;
     background-color: #878177;
 background-image: url(../img/slider1.jpg);
       margin-right: 20px;
-    width: 670px;
+    width: 630px;
     height: 266px;
       padding-left: 15px;
     overflow: hidden;
@@ -841,7 +844,7 @@ border: 3px solid #ffffff;
 }
 .slider-inner {
     overflow: hidden;
-     width: 620px;
+     width: 630px;
 }
 
 .slider-slides {
@@ -857,7 +860,7 @@ border: 3px solid #ffffff;
     color: #ffffff;
     background-color: #878177;
 background-image: url(../img/slider1.jpg);
-    width: 620px;
+    width: 630px;
     height: 266px;
     padding-left: 15px;
   }
@@ -876,7 +879,7 @@ background-image: url(../img/slider1.jpg);
     background-color: red;
 background-image: url(../img/slider2.jpg);
       margin-right: 20px;
-    width: 670px;
+    width: 630px;
     height: 266px;
       padding-left: 15px;
   }
@@ -922,5 +925,5 @@ background-image: url(../img/slider2.jpg);
 }
 
 #btn-2:checked ~ .slider-inner .slider-slides {
-    transform: translate(-670px);
+    transform: translate(-630px);
 }
